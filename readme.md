@@ -1,9 +1,9 @@
-[rplace.tk](https://rplace.tk) bot generator ( not working anymore )
+[rplace.tk](https://rplace.tk) bot generator ( not working anymore but easy to fix)
 
 ## prerequisite
 
 - you need [deno](https://deno.land) installed
-- you may also need internet connection to download libraries for executing bot
+- you may also need internet connection to download libraries for executing bot ( deno.land is is not available in iran)
   generator
 
 ## Usage
