@@ -1,5 +1,10 @@
 export function generateCode(opts: { board: number[][] }) {
   return `
+  
+  t = getEventListeners(pok).click[0].listener; 
+dispachC1ickOnSubmit = ()=>t({isTrusted:true})
+let destPosition = {x:425 , y :536}
+
     window.destBoard = ${JSON.stringify(opts.board)};
     
     window.getPixelColor = function getPixelColor(x, y) {
@@ -11,7 +16,7 @@ export function generateCode(opts: { board: number[][] }) {
         y = sety;
         PEN = setc;
         pok.classList.add("enabled");
-        pok.click()
+         dispachC1ickOnSubmit()
     };
     
     window.getBoardFromXY = function getBoardFromXY(x, y, width, heigh) {
